@@ -1,3 +1,7 @@
+*{
+  outline: 1px solid purple;  
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -6,22 +10,34 @@ body {
 .card {
   width: 400px;
   background: #fff;
+  padding: 8px;
   margin: 16px auto;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
+  padding: 8px;
+  text-align: center;
   background: #e3f4ff;
 }
 
 button {
   background: white;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
   border: 1px solid #eee;
 }
