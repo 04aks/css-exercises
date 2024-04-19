@@ -1,8 +1,21 @@
+*{
+  padding: 0px;
+  margin: 0px;  
+}
+
+body{
+  outline: 2px solid purple;
+}
 .container {
+  margin: 16px auto;
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -12,4 +25,5 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  
 }
